@@ -22,7 +22,7 @@ Docckerfile.dev  for testing
 Dockerfile for production build
 .travis.yml for CI-CD  workflow  
 
-=============================Running Container====================================================
+=============================Running Container====================================
 
 you can down loadimages from docker hub as follows :
 
@@ -32,4 +32,4 @@ run the image using following command
 
 $ docker run -p 8050:80 ydockerr/docker-reactapp
 
-====================================================================================================
+==================================================================================

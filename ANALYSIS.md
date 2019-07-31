@@ -15,14 +15,14 @@ This project demonstrates complete development and production work-flow usging
 ==========================CICD Workflow ========================================
 
 Project files
-React app file : docker-reactApp/src/App.js  / 
-React app test file : docker-reactApp/src/App.test.js  /
+- React app file : docker-reactApp/src/App.js  / 
+- React app test file : docker-reactApp/src/App.test.js  /
 
-Docckerfile.dev  for testing
-Dockerfile for production build
-.travis.yml for CI-CD  workflow  
+- Docckerfile.dev  for testing
+- Dockerfile for production build
+- .travis.yml for CI-CD  workflow  
 
-=============================Running Container====================================
+=============================Running Container===============================
 
 you can down loadimages from docker hub as follows :
 
@@ -32,4 +32,4 @@ run the image using following command
 
 $ docker run -p 8050:80 ydockerr/docker-reactapp
 
-==================================================================================
+==============================================================================
